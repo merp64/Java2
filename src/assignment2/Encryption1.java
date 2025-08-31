@@ -2,7 +2,7 @@ package assignment2;
 
 /**Encryption1 Class
 * 
-* This class Encrypts a single word according to the rules:
+* Encrypts a single word according to the rules:
 * Word is either all letters or all digits; no special characters.
 * Letters are converted to lowercase.
 * Single letter - next letter with wraparound (a-b, z-a).
@@ -60,7 +60,7 @@ public class Encryption1 {
 			throw new IllegalArgumentException("Invalid word: '" + word
 					+ "'. Words must contain only letters OR only digits; no special characters.");
 		}
-	}
+	} // End of encryptWord method
 
 	/**
 	 * Main method: Encrypt each word from the line individually and concatenate all
@@ -94,5 +94,5 @@ public class Encryption1 {
 		} finally {
 			scanner.close();
 		}
-	}
-}
+	} //End of main method
+}//End of Encryption1 class
